@@ -1,4 +1,4 @@
-# textlint-formatter-codecov
+# textlint-formatter-codecov [![Build Status](https://travis-ci.org/azu/textlint-formatter-codecov.svg?branch=master)](https://travis-ci.org/azu/textlint-formatter-codecov)
 
 [textlint](https://github.com/textlint/textlint "textlint") formatter for [Codecov](https://codecov.io/ "Codecov - Code Coverage").
 
