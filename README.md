@@ -49,6 +49,20 @@ See [Example](example/) and [Result](https://codecov.io/github/azu/textlint-form
 
 => 1 - (2/7) = 71.42% = Text Coverage!
 
+## Similar formatter
+
+- [textlint-formatter-lcov](https://github.com/azu/textlint-formatter-lcov "textlint-formatter-lcov")
+    - for [lcov](http://ltp.sourceforge.net/coverage/lcov/geninfo.1.php) format.
+
+## FAQ
+
+### Which formatter is better for Code Coverage(Text Coverage)?
+
+We recommended that use [Codecov](https://codecov.io/ "Codecov - Code Coverage") with [textlint-formatter-codecov](https://github.com/azu/textlint-formatter-codecov "textlint-formatter-codecov").
+Because, [Codecov JSON](https://gist.github.com/codecov-io/96e1addb96856a9034c2 "Codecov JSON") support `messages`.
+
+![messsage](https://monosnap.com/file/bthUiT82JwLp7VU8tJcYWNaMCQuXTN.png)
+
 ## Tests
 
     npm test
