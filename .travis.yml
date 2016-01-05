@@ -1,6 +1,5 @@
 sudo: false
 language: node_js
 node_js: stable
-script:
-- npm test
-- npm run travis:codecov
+after_success:
+  - npm run travis:codecov
