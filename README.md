@@ -26,7 +26,11 @@ See [Codecov JSON](https://gist.github.com/codecov-io/96e1addb96856a9034c2 "Code
 
 ## Usage
 
-    textlint -f codecov
+    # In Travis CI | Circle CI...
+    npm install codecov.io textlint textlint-formatter-codecov -D
+    textlint -f codecov | codecov.io
+
+See [Example](example/) and [Result](https://codecov.io/github/azu/textlint-formatter-codecov).
 
 ## Tests
 
