@@ -34,6 +34,21 @@ See [Example](example/) and [Result](https://codecov.io/github/azu/textlint-form
 
 - [![codecov.io](https://codecov.io/github/azu/textlint-formatter-codecov/coverage.svg?branch=master)](https://codecov.io/github/azu/textlint-formatter-codecov?branch=master)
 
+```
+1: # Example [![codecov.io](https://codecov.io/github/azu/textlint-formatter-codecov/coverage.svg?branch=master)](https://codecov.io/github/azu/textlint-formatter-codecov?branch=master)
+2: 
+3(✔textlint error): - [ ] TODO 
+4:
+5(✔textlint error): jQuerl is not jQuery.
+6: 
+7: Here.
+```
+
+- 5 Hit(line)
+- 2 Missed(line)
+
+=> 1 - (2/7) = 71.42% = Text Coverage!
+
 ## Tests
 
     npm test
