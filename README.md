@@ -32,6 +32,8 @@ See [Codecov JSON](https://gist.github.com/codecov-io/96e1addb96856a9034c2 "Code
 
 See [Example](example/) and [Result](https://codecov.io/github/azu/textlint-formatter-codecov).
 
+- [![codecov.io](https://codecov.io/github/azu/textlint-formatter-codecov/coverage.svg?branch=master)](https://codecov.io/github/azu/textlint-formatter-codecov?branch=master)
+
 ## Tests
 
     npm test
